@@ -1,0 +1,22 @@
+body{
+    color: #334139;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    color: #9ebc93;
+}
+
+a:visited{
+    color: #ffafc5;
+}
+
+#titlenav{
+    text-align: center;
+    padding-bottom: 20px;
+}
