@@ -5,4 +5,4 @@ The purpose of this indepdent study is to create a project to help me develop my
 
 2024/03/12 update: flexbox added to survey page, flexbox design added to CSS stylesheet.
 
-2024/03/25 update: updated flexbox design applied to CSS stylesheet and all pages expect homepage
+2024/03/25 update: updated flexbox design applied to CSS stylesheet and all pages expect homepage, uploaded sample plant profile, which is still a work in progress at the time of its upload, updated plantprofiles.html to have a link to a sample plant profile (spiderplant-profile.html)
