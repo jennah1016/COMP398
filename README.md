@@ -4,3 +4,5 @@ The purpose of this indepdent study is to create a project to help me develop my
 2024/02/19 update: functioning homepage, first iteration of CSS styling, and possible survey questions.
 
 2024/03/12 update: flexbox added to survey page, flexbox design added to CSS stylesheet.
+
+2024/03/25 update: updated flexbox design applied to CSS stylesheet and all pages expect homepage
