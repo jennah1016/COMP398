@@ -17,15 +17,24 @@ a:visited{
 }
 
 .flex-container{
+    column-count: 5;
+    column-gap: 50px;
+    column-width: 100px;
     display: flex;
     justify-content: center;
     align-content: space-between;
-}
-
-.flex-container > div {
-    margin: 10px;
+    padding-bottom: 10px;
 }
 
 #page-header{
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+#scientific-name{
     text-align: center;
 }
