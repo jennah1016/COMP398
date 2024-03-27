@@ -23,6 +23,24 @@ hr{
 img{
     width: 300px;
     height: 300px;
+    border-radius: 4px;
+}
+
+.container{
+    width: 1200px;
+    column-gap: 10px;
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container > div{
+    width: 400px;
+    height: 475px;
+    padding: 10px;
+    padding-top: 30px;
+    border-radius: 4px;
+    background-color: #c7d8c0;
 }
 
 .flex-container{
@@ -35,20 +53,17 @@ img{
     padding-bottom: 10px;
 }
 
-.container{
-    width: 1200px;
-    column-gap: 10px;
-    display: inline-flex;
-    justify-content: center;
+#page-header{
+    text-align: center;
 }
 
-.container > div{
-    width: 400px;
-    height: 475px;
-    padding: 10px;
-    padding-top: 30px;
-    border-radius: 4px;
-    background-color: #c7d8c0;
+#plant-names{
+    width: 300px;
+    height: 75px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+    text-align: center;
 }
 
 #plant-picture{
@@ -56,11 +71,4 @@ img{
     height: 300px;
     margin: 10px;
     padding-left: 40px;
-}
-
-#plant-names{
-    width: 300px;
-    height: 75px;
-    padding-left: 40px;
-    text-align: center;
 }
