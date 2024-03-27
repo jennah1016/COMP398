@@ -1,3 +1,11 @@
+a{
+    color: #9ebc93;
+}
+
+a:visited{
+    color: #ffafc5;
+}
+
 body{
     color: #334139;
     font-family: Verdana, Tahoma, sans-serif;
@@ -8,12 +16,13 @@ h1, h2, h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-a{
-    color: #9ebc93;
+hr{
+    color: #334139;
 }
 
-a:visited{
-    color: #ffafc5;
+img{
+    width: 300px;
+    height: 300px;
 }
 
 .flex-container{
@@ -26,15 +35,32 @@ a:visited{
     padding-bottom: 10px;
 }
 
-#page-header{
-    text-align: center;
+.container{
+    width: 1200px;
+    column-gap: 10px;
+    display: inline-flex;
+    justify-content: center;
 }
 
-img{
+.container > div{
     width: 400px;
-    height: 400px;
+    height: 475px;
+    padding: 10px;
+    padding-top: 30px;
+    border-radius: 4px;
+    background-color: #c7d8c0;
 }
 
-#scientific-name{
+#plant-picture{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding-left: 40px;
+}
+
+#plant-names{
+    width: 300px;
+    height: 75px;
+    padding-left: 40px;
     text-align: center;
 }
