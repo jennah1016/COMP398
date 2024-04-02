@@ -2,6 +2,8 @@
 <!--I still need to add JS for this page.  I may add or remove questions later on.-->
 <html lang="EN">
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width">
         <link rel="stylesheet" href="style.css"/>
         <title>Plant Recommendation Survey</title>
     </head>
@@ -16,7 +18,7 @@
         </div>
         <hr>
 
-        <ul>Survey questions:
+        <ol>Survey questions:
             <li>On a scale from 1 to 5, how much experience do you have raising plants (1: completely new to it, 5: you're a horticulture 
                 expert)</li>
             <li>On a scale from 1 to 5, how good are you at keeping your plants alive (1: they always die, 5: all your plants are 
@@ -25,7 +27,12 @@
             <li>On a scale from 1-5, how much natural light does your home receive? (1: hardly any, 5: lots of natural light!)</li>
             <li>If you have plants, how good are you at remembering to water them? (1: I always forget to water them, 5: I'm on top of 
                 my watering schedule, N/A: I've nenver owned plants)</li>
-       </ul>
-       <p>Submit button goes after all the questions, and then below that, the survey returns some recommendations for the user</p>
+       </ol>
+       <!--How do I center a button send help-->
+       <button type="submit" id="submitButton">Submit</button>
+       <hr>
+       <h3>Results:</h3><br>
+       <p id="results"></p>
+       <script src="surveyindex.js"></script>
     </body>
 </html>

@@ -12,12 +12,18 @@ body{
     padding: 10px;
 }
 
-h1, h2, h3{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+button{
+    background-color: #9ebc93;
+    color: #334139;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    border: 1px;
+    border-style: solid;
+    margin: 10px;
 }
 
-hr{
-    color: #334139;
+h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 img{
@@ -51,6 +57,10 @@ img{
     justify-content: center;
     align-content: space-between;
     padding-bottom: 10px;
+}
+
+#label1{
+    text-align: center;
 }
 
 #page-header{
