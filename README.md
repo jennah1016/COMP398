@@ -3,7 +3,7 @@ The purpose of this indepdent study is to create a project to help me develop my
 
 2024/04/01 update:
   -added charset and viewport attributes to all HTML documents
-  -connected first JS iteration to survey.html, primary function was to understand how JS and HTML work together
+  -connected first JS iteration to survey.html, primary goal was to understand how JS and HTML work together
 
 2024/03/27 update: 
   -revised sample plant profile, which still needs formatting revision at the time of its upload.  CSS stylesheet is also revised to take these changes into consideration.
