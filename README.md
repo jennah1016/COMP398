@@ -2,7 +2,7 @@ This is a semester-long project for an indepedent study in computer science, tak
 The purpose of this indepdent study is to create a project to help me develop my skills in HTML, CSS, and JavaScript.
 
 2024/04/01 update:
-  -added charset and viewport attributes to all HTML documents
+  -added charset and viewport attributes to all HTML documents, resolved "noopener" hint
   -connected first JS iteration to survey.html, primary goal was to understand how JS and HTML work together
 
 2024/03/27 update: 
