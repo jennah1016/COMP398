@@ -26,6 +26,10 @@ h1, h2, h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+header{
+    text-align: center;
+}
+
 img{
     width: 300px;
     height: 300px;
@@ -35,12 +39,12 @@ img{
 .container{
     width: 1200px;
     column-gap: 10px;
-    display: inline-flex;
-    justify-content: center;
     padding: 10px;
+    display: inline-flex;
+    justify-content: center;   
 }
 
-.container > div{
+.card-view{
     width: 400px;
     height: 475px;
     padding: 10px;
@@ -53,17 +57,17 @@ img{
     column-count: 5;
     column-gap: 50px;
     column-width: 100px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: center;
     align-content: space-between;
-    padding-bottom: 10px;
+}
+
+#header-link{
+    text-decoration: none;
 }
 
 #label1{
-    text-align: center;
-}
-
-#page-header{
     text-align: center;
 }
 
