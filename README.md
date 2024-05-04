@@ -1,5 +1,9 @@
 This is a semester-long project for an indepedent study in computer science, taken in the Spring 2024 semester.
 The purpose of this indepdent study is to create a project to help me develop my skills in HTML, CSS, and JavaScript.
+
+2024/05/04 update:
+  - removed text decoration from links in the header, updated CSS stylsheet to reflect this change
+
 2024/04/25 update:
   -adjusted CSS and spiderplant-profile.html to include the card-view class
   
